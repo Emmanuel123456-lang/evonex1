@@ -1,0 +1,75 @@
+.car{
+    background-color: rgb(255,245,234);
+}
+body::before{
+    display: block;
+    height: 60px;
+    content: '/';
+}
+.rate{
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgb(222, 222, 222)
+}
+.rater{
+    background-color: rgb(255,245,234);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+.rater input{
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid black;
+    outline: none;
+}
+.span{
+    color: rgb(255,142,0);
+}
+.lolo{
+    background-color:  rgb(255,142,0);
+    border-radius: 10px;
+    color: white;
+}
+.lolo :hover{
+    background-color: white;
+    border: 2px solid  rgb(255,142,0);
+    color:  rgb(255,142,0);
+    border-radius: 10px;
+}
+.cl{
+    border-top: 1px solid blue;
+    width: 100px;
+}
+.kolo button{
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.kolo img{
+    width: 20%;
+}
+.kolo :hover{
+    background-color: blue;
+    color: white;
+}
+.clll{
+    color: rgb(101, 102, 102);
+}
+.coin{
+    border-radius: 10px;
+    width: 50%;
+}
+.coin{
+    margin: 0 auto !important;
+}
+@media(max-width:1000px){
+    .coin{
+        width: 100%;
+    }
+    .c{
+        padding: 5px;
+        margin-left: -50px;
+    }
+}
